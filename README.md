@@ -24,7 +24,7 @@
 ## Part 4: Model Building and Evaluation
 #### - First, I used Label Encoding on the Dependent Variable (ALIVE) so that 'Living Characters' are assigned 1s and 'Deceased Characters' are assigned 0s. (binary classification)
 #### - Second, I conducted the train(80%)/test(20%) split to fit the data into 5 different classifiers: Logistic Regression, Quadratic Discriminant Analysis (QDA), Linear Discriminant Analysis (LDA), K-Nearest Neighbors (KNN), and Random Forest. For each of these, along with the train/test data plit method, I used k = 5 folds Cross Validation to acquire the confusion matrices and accuracy values. 
-#### - The results show that Logistic Regression had the highest accuracy scores (train/test split method:0.7268, k = 5 folds CV:0.7199) closely followed by LDA (train/test split method:0.7208, k = 5 folds CV:0.7149)
+#### - The results show that Based on Train/Test data split method, KNN(k = 64) had the highest accuracy score. Based on k = 5 fold CV method, Logistic Regression had the highest accuracy score
 #### - ![](Visualizations/viz4.png)
 
 #### - Bonus: I added a row in the dataset of a Marvel Character named Peter Griffin from Family Guy, and used logistic regression to see if he lives - turns out he does!
