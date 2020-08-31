@@ -35,7 +35,7 @@
 #### - One Hot Encoding and Label Encoding methods seem very useful for classification problems
 #### - The QDA classifier performed notably lower than the others 
 #### - In the next steps, I would like to further look for more efficient ways to add new observations of characters to predict their survival
-#### - Can different values for cross validation (e.g k = 10 folds) and KNN (e.g for this project, I used the default value of k = 5) yield different results? -> worth looking into.
+#### - Can different values for cross validation (e.g k = 10 folds) yield different results? -> worth looking into.
 #### - Why are LDA and Logistic Regression so close in their results? Could this be due to some of their characteristics?
 
 ## Part 6: Resources that I've Used and Learned From
