@@ -1,4 +1,4 @@
-# What is the Fate of Marvel Characters? - An Attempt to Predict their Destinies with Characters' Traits using Classification Methods (by Taehyung Kim)
+# What is the Fate of Marvel Heroes? - An Attempt to Predict their Destinies with Characters' Traits using Classification Methods (by Taehyung Kim)
 
 ## Part 1: Project Background
 #### As a fan of the Marvel Cinematic Universe,  I always found the scenes where each character meet their fate so dramatic. Having learned of classification algorithms, I thought it would be interesting to implement these methods to predict which characters live and which meet their demise, using some of their characteristics such as their alignment, eye & hair colors, and number of appearances in the comics. The dataset I used can be found here: https://www.kaggle.com/fivethirtyeight/fivethirtyeight-comic-characters-dataset?select=marvel-wikia-data.csv and the code can be found in the ipynb file in this repository.
